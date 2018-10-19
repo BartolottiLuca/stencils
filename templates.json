@@ -1,5 +1,9 @@
 {
 	"version": "v1",
+	"templates":[
+		"stencils",
+		"policies"
+	],
 	"stencils": [
 		{
 			"name": "Service",
