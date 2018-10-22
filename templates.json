@@ -1,39 +1,21 @@
 {
 	"version": "v1",
-	"templates": [
+	"policies": [
 		{
-			"name": "Service",
-			"filename_pattern": "${service}_service.yml",
-			"filename": "service.yml",
-			"description": "Defines a service",
-			"context_type": "service",
-			"tags": ["service"],
-			"preferred_sequence": 2
-		},
-		{
-			"name": "Setup",
-			"filename_pattern": "setup.yml",
-			"filename": "setup.yml",
-			"description": "Setup namespace, etc",
-			"context_type": "stack",
-			"tags": ["setup"],
-			"preferred_sequence": -9999
-		},
-		{
-			"name": "Default HTTP Backend",
-			"filename_pattern": "default-http-backend.yml",
-			"filename": "default-http-backend.yml",
-			"description": "Default HTTP Backend",
-			"context_type": "stack",
-			"tags": ["setup", "config"],
-			"preferred_sequence": -9997
+			"name": "No Port in Services",
+			"filename_pattern": "no-port-for-services-num.cop",
+			"filename": "no-port-num.cop",
+			"description": "Block a port",
+			"selector": "kind: Service",
+			"tags": [],
+			"preferred_sequence": 0
 		},
 		{
 			"name": "Custom",
-			"filename_pattern": "blank.yml",
-			"filename": "blank.yml",
+			"filename_pattern": "blank.cop",
+			"filename": "blank.cop",
 			"description": "Blank custom file",
-			"context_type": "stack",
+			"selector": "Stack",
 			"tags": [],
 			"preferred_sequence": 9998
 		}
