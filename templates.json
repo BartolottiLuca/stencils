@@ -45,8 +45,7 @@
 			"filename": "policies/no-port-num.cop",
 			"description": "Block a port",
 			"selector": "kind: Service",
-			"tags": [],
-			"preferred_sequence": 0
+			"tags": []
 		},
 		{
 			"name": "NoLatestInImageTag",
@@ -54,8 +53,7 @@
 			"filename": "policies/no-latest-image.cop",
 			"description": "Ban use of latest as image tag",
 			"selector": "kind: Deployment",
-			"tags": [],
-			"preferred_sequence": 1
+			"tags": []
 		},
 		{
 			"name": "MySQLVersionCheck",
@@ -63,8 +61,7 @@
 			"filename": "policies/only-minor-upgrades.cop",
 			"description": "Only allow minor version upgrades",
 			"selector": "kind: Deployment",
-			"tags": [],
-			"preferred_sequence": 2
+			"tags": []
 		},
 		{
 			"name": "DeploymentFilenamePolicy",
@@ -72,8 +69,7 @@
 			"filename": "policies/filename-policy.cop",
 			"description": "Enforce filename policies",
 			"selector": "",
-			"tags": [],
-			"preferred_sequence": 3
+			"tags": []
 		},
 		{
 			"name": "LoadBalancerIpinRange",
@@ -81,8 +77,7 @@
 			"filename": "policies/lb-in-range.cop",
 			"description": "Load Balancer IP is within the range",
 			"selector": "kind: Service",
-			"tags": [],
-			"preferred_sequence": 4
+			"tags": []
 		},
 		{
 			"name": "NoDefaultNamespace",
@@ -90,8 +85,7 @@
 			"filename": "policies/no-default-namespace.cop",
 			"description": "Namespace is available and not default",
 			"selector": "",
-			"tags": [],
-			"preferred_sequence": 5
+			"tags": []
 		},
 		{
 			"name": "NoDockerHub",
@@ -99,8 +93,7 @@
 			"filename": "policies/no-dockerhub.cop",
 			"description": "No DockerHub images",
 			"selector": "kind: Deployment",
-			"tags": [],
-			"preferred_sequence": 6
+			"tags": []
 		},
 		{
 			"name": "OnlyFromPrivateRepo",
@@ -108,8 +101,7 @@
 			"filename": "policies/only-private-repo.cop",
 			"description": "Only pull images from our private registry",
 			"selector": "kind: Deployment",
-			"tags": [],
-			"preferred_sequence": 7
+			"tags": []
 		},
 		{
 			"name": "Custom",
@@ -117,8 +109,7 @@
 			"filename": "policies/blank.cop",
 			"description": "Blank custom file",
 			"selector": "",
-			"tags": [],
-			"preferred_sequence": 9998
+			"tags": []
 		}
 	]
 }
