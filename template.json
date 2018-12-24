@@ -5,16 +5,16 @@
 			"section": "service",
 			"templates": [{
 					"name": "Service",
-					"filename": "foo/${service}_service.yml",
-					"template_filename": "foo/service.yml",
+					"filename": "${service}_service.yml",
+					"template_filename": "service.yml",
 					"description": "Service definition",
 					"kind": "service",
 					"tags": ["service"]
 				},
 				{
 					"name": "Deployment",
-					"filename": "foo/${service}_deploy.yml",
-					"template_filename": "foo/deploy.yml",
+					"filename": "${service}_deploy.yml",
+					"template_filename": "deploy.yml",
 					"description": "Deployment",
 					"kind": "service",
 					"tags": ["service"]
@@ -26,24 +26,24 @@
 			"section": "config",
 			"templates": [{
 					"name": "Setup",
-					"filename": "foo/setup.yml",
-					"template_filename": "foo/setup.yml",
+					"filename": "setup.yml",
+					"template_filename": "setup.yml",
 					"description": "Setup namespace, etc",
 					"kind": "env",
 					"tags": ["setup"]
 				},
 				{
 					"name": "Environments",
-					"filename": "foo/env.yml",
-					"template_filename": "foo/env.yml",
+					"filename": "env.yml",
+					"template_filename": "env.yml",
 					"description": "ConfigMaps",
 					"kind": "env",
 					"tags": ["config"]
 				},
 				{
 					"name": "Event Relay",
-					"filename": "foo/event-relay.yml",
-					"template_filename": "foo/event-relay.yml",
+					"filename": "event-relay.yml",
+					"template_filename": "event-relay.yml",
 					"description": "Notify when formations deployed",
 					"kind": "env",
 					"tags": ["config", "setup"]
@@ -55,16 +55,16 @@
 			"section": "custom",
 			"templates": [{
 				"name": "Custom",
-				"filename": "foo/blank.yml",
-				"template_filename": "foo/blank.yml",
+				"filename": "blank.yml",
+				"template_filename": "blank.yml",
 				"description": "Blank custom file",
 				"kind": "custom",
 				"tags": []
 			},
 			{
 				"name": "Redis",
-				"filename": "foo/redis.yml",
-				"template_filename": "foo/redis.yml",
+				"filename": "redis.yml",
+				"template_filename": "redis.yml",
 				"description": "Basic Redis",
 				"kind": "custom",
 				"tags": ["service"]
