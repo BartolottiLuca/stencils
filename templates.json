@@ -10,6 +10,7 @@
 			{
 				"name": "Service",
 				"filename_pattern": "${service}_service.yml",
+				"filename": "service.yml",
 				"description": "Defines a service",
 				"context_type": "service",
 				"tags": [
@@ -20,7 +21,7 @@
 			{
 				"name": "Setup",
 				"filename_pattern": "setup.yml",
-				"filename": "setup.yml",
+				"filename": "service.yml",
 				"description": "Setup namespace, etc",
 				"context_type": "stack",
 				"tags": [
