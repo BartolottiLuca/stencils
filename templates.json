@@ -43,8 +43,8 @@
 			},
 			{
 				"name": "Custom",
-				"filename_pattern": "blanko.yml",
-				"filename": "blank.yml",
+				"filename_pattern": "blank.yml",
+				"filename": "blanko.yml",
 				"description": "Blank custom file",
 				"context_type": "stack",
 				"tags": [],
