@@ -44,22 +44,13 @@
 			{
 				"name": "Custom",
 				"filename_pattern": "blank.yml",
-				"filename": "blanko.yml",
+				"filename": "blank.yml",
 				"description": "Blank custom file",
 				"context_type": "stack",
 				"tags": [],
 				"preferred_sequence": 9998
 			}
 		],
-		"policies": [
-			{
-				"name": "Custom",
-				"filename": "blank.cop",
-				"description": "Blank custom file",
-				"selector": "",
-				"tags": [],
-				"preferred_sequence": 9998
-			}
-		]
+		"policies": []
 	}
 }
