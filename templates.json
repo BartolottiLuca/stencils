@@ -51,6 +51,15 @@
 				"preferred_sequence": 9998
 			}
 		],
-		"policies": []
+		"policies": [
+			{
+				"name": "Custom",
+				"filename": "blanko.cop",
+				"description": "Blank custom file",
+				"selector": "",
+				"tags": [],
+				"preferred_sequence": 9998
+			}
+		]
 	}
 }
