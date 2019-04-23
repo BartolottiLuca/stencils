@@ -50,6 +50,15 @@
 				"tags": [],
 				"preferred_sequence": 9998
 			}
+		],
+		"policies": [
+			{
+				"name": "Custom",
+				"description": "Blank custom file",
+				"selector": "",
+				"tags": [],
+				"preferred_sequence": 9998
+			}
 		]
 	}
 }
