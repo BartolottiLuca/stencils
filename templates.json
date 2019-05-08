@@ -54,6 +54,7 @@
 		"policies": [
 			{
 				"name": "Custom",
+				"filename": "blank.cop",
 				"description": "Blank custom file",
 				"selector": "",
 				"tags": [],
