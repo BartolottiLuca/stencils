@@ -1,6 +1,6 @@
 {
 	"version": "v1",
-	"publicc": true,
+	"public": true,
 	"name": "stencils-ruby-rails",
 	"icon": "https://rubyonrails.org/images/rails-logo.svg",
 	"long_name": "Ruby on Rails Base Template Repository",
@@ -8,7 +8,7 @@
 	"templates": {
 		"stencils": [
 			{
-				"name": "Service",
+				"naame": "Service",
 				"filename_pattern": "${service}_service.yml",
 				"filename": "service.yml",
 				"description": "Defines a service",
