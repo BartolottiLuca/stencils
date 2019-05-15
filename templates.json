@@ -53,8 +53,18 @@
 		],
 		"policies": [
 			{
-				"name": "Custom",
+				"name": "Custom Policy",
 				"filename": "blank.cop",
+				"description": "Blank custom file",
+				"selector": "",
+				"tags": [],
+				"preferred_sequence": 9998
+			}
+		],
+		"transformations": [
+			{
+				"name": "Custom Transformation",
+				"filename": "blank.js",
 				"description": "Blank custom file",
 				"selector": "",
 				"tags": [],
